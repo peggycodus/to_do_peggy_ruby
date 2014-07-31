@@ -16,8 +16,13 @@ class List
     @tasks
   end
 
+  def add_task(task_name)
+    @tasks << task_name
+  end
+
 end
 test_list = List.new("School stuff")
+
 
 puts test_list.list_name
 puts "-------------"
