@@ -1,5 +1,28 @@
 
 
+class List
+@@lists = []
+
+  def initialize(list_name)
+    @list_name = list_name
+    @tasks = []
+  end
+
+  def list_name
+    @list_name
+  end
+
+  def tasks
+    @tasks
+  end
+
+end
+test_list = List.new("School stuff")
+
+puts test_list.list_name
+puts "-------------"
+puts test_list.tasks
+puts "-------------"
 
 
 # To do

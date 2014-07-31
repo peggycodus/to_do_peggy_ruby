@@ -8,8 +8,8 @@ By  Peggy Condon  July 2014
 
 **Features:
 
--User can create a task and assign it to a list
 -Users can create one or more lists
+-User can create a task and assign it to a list
 -Users can mark a task finished
 -When it is marked finished the task is removed from the list
 -users can view all the active tasks in a list
