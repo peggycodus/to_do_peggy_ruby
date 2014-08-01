@@ -42,17 +42,21 @@ describe '.clear' do
   end
 end
 
-end
-
 describe(Task) do
+
+  before do
+    Task.clear
+  end
+
   describe '#save' do
     it 'adds a task to the array of saved tasks' do
       test_task = Task.new('wash the lion')
       test_task.save
       Task.all.should eq [test_task]
     end
+  end
 
-    describe '.clear' do
+  describe '.clear' do
     it 'empties out all of the saved tasks' do
       Task.new('wash the lion').save
       Task.clear
