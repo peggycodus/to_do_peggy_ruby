@@ -13,14 +13,15 @@ describe(List) do
     test_list.tasks.should eq []
   end
 
-describe '#save' do
+  describe '#save' do
     it 'adds a list to the array of saved lists' do
       test_list = List.new('Home')
       test_list.save
       List.all.should eq [test_list]
     end
+  end
 
-describe '.clear' do
+  describe '.clear' do
     it 'empties out all of the saved lists' do
       List.new('wash the lion').save
       List.clear

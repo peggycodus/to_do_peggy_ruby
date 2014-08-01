@@ -14,7 +14,7 @@ User can:
 -display all lists
 -add a new task to a list
 -mark a task finished
--When a task is marked finished the task is removed from the list
+-When a task is marked finished then the task is removed from the list
 -view all the active tasks in a list
 -view all the tasks marked done
 -assign due dates to a task
