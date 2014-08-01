@@ -1,24 +1,29 @@
-***Overview
+***Overview:
 This program organizes tasks and to do lists
-By  Peggy Condon  July 2014
+** Author: Peggy Condon  July 2014
 
-***To Do List
+**Title: To Do List
 
-**Language: Ruby
+**Language/Framework: Ruby, Rspec, Shoes
 
 **Features:
+_____________
 
--Users can create one or more lists
--User can create a task and assign it to a list
--Users can mark a task finished
--When it is marked finished the task is removed from the list
--users can view all the active tasks in a list
--users can view all the tasks marked done
--Users can assign due dates to a task
--Users can assign priority to a task
--Users can sort tasks by due date or priority
--users can edit a task description
--users can delete a task
+User can:
+-create one or more lists
+-display all lists
+-add a new task to a list
+-mark a task finished
+-When a task is marked finished the task is removed from the list
+-view all the active tasks in a list
+-view all the tasks marked done
+-assign due dates to a task
+-assign priority to a task
+-add a task description
+-edit a task
+-sort tasks by due date or priority
+-delete a task
+-delete a list
 
 
 
